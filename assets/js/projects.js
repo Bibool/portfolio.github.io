@@ -11,7 +11,7 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/cc_banner.png',
+            image: 'assets/cc_banner1.png',
             link: 'https://qorpo.world/games/ebea97a8-81cd-4b74-b701-86e0f005ad44?category=Action',
             title: 'Citizen Conflict',
             demo: 'https://qorpo.world/games/ebea97a8-81cd-4b74-b701-86e0f005ad44?category=Action',
