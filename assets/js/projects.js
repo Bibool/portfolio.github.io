@@ -14,7 +14,6 @@ let render_projects = (slug) => {
             image: 'assets/cc_banner1.png',
             link: 'https://qorpo.world/games/ebea97a8-81cd-4b74-b701-86e0f005ad44?category=Action',
             title: 'Citizen Conflict',
-            demo: 'https://qorpo.world/games/ebea97a8-81cd-4b74-b701-86e0f005ad44?category=Action',
             technologies: ['C++', 'Blueprints'],
             description: "Multiplayer Third Person Hero Shooter with an emphasis on movement, abilities and reactionary gunplay.",
             categories: ['featured', 'gamedev']
@@ -23,7 +22,6 @@ let render_projects = (slug) => {
             image: 'assets/ani_banner.png',
             link: 'https://qorpo.world/games/9a1bdfc2-0b75-47b7-98b8-754a5c7bd788?category=Adventure',
             title: 'Aneemate',
-            demo: 'https://qorpo.world/games/9a1bdfc2-0b75-47b7-98b8-754a5c7bd788?category=Adventure',
             technologies: ['C++', 'Blueprints'],
             description: "Pokemon inspired game where the purpouse is the collect and gather powerful Aneemates.",
             categories: ['featured', 'gamedev']
