@@ -23,7 +23,7 @@ let render_projects = (slug) => {
             link: 'https://qorpo.world/games/9a1bdfc2-0b75-47b7-98b8-754a5c7bd788?category=Adventure',
             title: 'Aneemate',
             technologies: ['C++', 'Blueprints'],
-            description: "Pokemon inspired game where the purpouse is the collect and gather powerful Aneemates.",
+            description: "Pokemon inspired game where the purpose is to collect and gather powerful Aneemates.",
             categories: ['featured', 'gamedev']
         },
     ]
