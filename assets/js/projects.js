@@ -27,7 +27,7 @@ let render_projects = (slug) => {
             categories: ['featured', 'gamedev']
         },
         {
-            image: 'assets/frm_banner.png',
+            image: 'assets/frm_banner1.png',
             title: 'QFRAMEWORK',
             technologies: ['C++', 'UE5.2', 'Plug-in'],
             description: "Powerful and modular, the custom built QFRAMEWORK is behind driving all games in the studio. Reponsible for planning and developing a modular and expandable code base. Optimized and rigorous.",
