@@ -12,18 +12,20 @@ let render_projects = (slug) => {
     let projects_obj = [
         {
             image: 'assets/cc_banner1.png',
-            link: 'https://qorpo.world/games/ebea97a8-81cd-4b74-b701-86e0f005ad44?category=Action',
+            link: 'https://store.epicgames.com/en-US/p/citizen-conflict-95e40e',
             title: 'Citizen Conflict',
             technologies: ['C++', 'Blueprints'],
             description: "Multiplayer Third Person Hero Shooter with an emphasis on movement, abilities and reactionary gunplay.",
+            work: "Worked on a framework for both CitizenConflict and Aneemate. Responsible for general debugging, gameplay features and animation programming.",
             categories: ['featured', 'gamedev']
         },
         {
             image: 'assets/ani_banner.png',
-            link: 'https://qorpo.world/games/9a1bdfc2-0b75-47b7-98b8-754a5c7bd788?category=Adventure',
+            link: 'https://aneemate.com/',
             title: 'Aneemate',
             technologies: ['C++', 'Blueprints'],
             description: "Pokemon inspired game where the purpose is to collect and gather powerful Aneemates.",
+            work: "Worked on a framework for both CitizenConflict and Aneemate. Worked on Aneemates, gameplay and general world interaction.",
             categories: ['featured', 'gamedev']
         },
     ]
