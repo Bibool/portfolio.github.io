@@ -15,7 +15,7 @@ let render_projects = (slug) => {
             link: 'https://store.epicgames.com/en-US/p/citizen-conflict-95e40e',
             title: 'Citizen Conflict',
             technologies: ['C++', 'Blueprints', 'UE5.2'],
-            description: "Multiplayer Third Person Hero Shooter with an emphasis on movement, abilities and reactionary gunplay. Worked on a framework for both CitizenConflict and Aneemate. Responsible for general debugging, bugfixing, gameplay features and animation programming.",
+            description: "Multiplayer Third Person Hero Shooter with an emphasis on movement, abilities and reactionary gunplay. Responsible for general debugging, bugfixing, gameplay features and animation programming.",
             categories: ['featured', 'gamedev']
         },
         {
@@ -23,7 +23,14 @@ let render_projects = (slug) => {
             link: 'https://aneemate.com/',
             title: 'Aneemate',
             technologies: ['C++', 'Blueprints', 'UE5.2'],
-            description: "Pokemon inspired game where the purpose is to collect and train powerful Aneemates within an animated world. Worked on a framework for both CitizenConflict and Aneemate. Worked on Aneemates, gameplay and general world interaction as well as optimization.",
+            description: "Pokemon inspired game where the purpose is to collect and train powerful Aneemates within an animated world. Worked on Aneemates, gameplay and general world interaction as well as optimization.",
+            categories: ['featured', 'gamedev']
+        },
+        {
+            image: 'assets/frm_banner.png',
+            title: 'QFRAMEWORK',
+            technologies: ['C++', 'UE5.2', 'Plug-in'],
+            description: "Powerful and modular, the custom built QFRAMEWORK is behind driving all games in the studio. Reponsible for planning and developing a modular and expandable code base. Optimized and rigorous.",
             categories: ['featured', 'gamedev']
         },
     ]
