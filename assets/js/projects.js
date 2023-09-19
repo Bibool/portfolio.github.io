@@ -15,8 +15,7 @@ let render_projects = (slug) => {
             link: 'https://store.epicgames.com/en-US/p/citizen-conflict-95e40e',
             title: 'Citizen Conflict',
             technologies: ['C++', 'Blueprints'],
-            description: "Multiplayer Third Person Hero Shooter with an emphasis on movement, abilities and reactionary gunplay.",
-            work: "Worked on a framework for both CitizenConflict and Aneemate. Responsible for general debugging, gameplay features and animation programming.",
+            description: "Multiplayer Third Person Hero Shooter with an emphasis on movement, abilities and reactionary gunplay. \nWorked on a framework for both CitizenConflict and Aneemate. Responsible for general debugging, gameplay features and animation programming.",
             categories: ['featured', 'gamedev']
         },
         {
@@ -24,8 +23,7 @@ let render_projects = (slug) => {
             link: 'https://aneemate.com/',
             title: 'Aneemate',
             technologies: ['C++', 'Blueprints'],
-            description: "Pokemon inspired game where the purpose is to collect and gather powerful Aneemates.",
-            work: "Worked on a framework for both CitizenConflict and Aneemate. Worked on Aneemates, gameplay and general world interaction.",
+            description: "Pokemon inspired game where the purpose is to collect and gather powerful Aneemates.\nWorked on a framework for both CitizenConflict and Aneemate. Worked on Aneemates, gameplay and general world interaction.",
             categories: ['featured', 'gamedev']
         },
     ]
