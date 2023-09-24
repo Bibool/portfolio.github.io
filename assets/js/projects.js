@@ -30,7 +30,15 @@ let render_projects = (slug) => {
             image: 'assets/frm_banner1.png',
             title: 'QFRAMEWORK',
             technologies: ['C++', 'UE5.2', 'Plug-in'],
-            description: "Powerful and modular, the custom built QFRAMEWORK is behind driving all games in the studio. Reponsible for planning and developing a modular and expandable code base. Optimized and rigorous.",
+            description: "Powerful and modular, this inhouse framework is behind driving all games in QORPO. Reponsible for planning and developing a modular and expandable code base with optimized architecture and design.",
+            categories: ['featured', 'gamedev']
+        },
+        {
+            image: 'assets/svr_banner1.png',
+            link: 'https://hehehenrique.itch.io/sharks-vs-robots',
+            title: 'Sharks vs Robots',
+            technologies: ['C++', 'cocos2dx'],
+            description: "Built in cocos2dx coupled with GCWrapper, this is a traditional remake of Manic Miner. Created the Game Manager, Interactibles, level generation, UI, Player controls, score and persistant data.",
             categories: ['featured', 'gamedev']
         },
     ]
