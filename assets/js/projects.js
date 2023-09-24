@@ -30,7 +30,7 @@ let render_projects = (slug) => {
             image: 'assets/frm_banner1.png',
             title: 'QFRAMEWORK',
             technologies: ['C++', 'UE5.2', 'Plug-in'],
-            description: "Powerful and modular, this inhouse framework is behind driving all games in QORPO. Reponsible for planning and developing a modular and expandable code base with optimized architecture and design.",
+            description: "Powerful and modular, this inhouse framework is behind driving all games at QORPO. Reponsible for planning and developing a modular / expandable code base with optimized architecture and design.",
             categories: ['featured', 'gamedev']
         },
         {
