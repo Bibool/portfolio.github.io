@@ -22,7 +22,7 @@ let render_projects = (slug) => {
             image: 'assets/gamesfarm.png',
             link: 'https://www.games-farm.com/',
             title: 'GamesFarm',
-            technologies: ['C++', 'BP', 'UE5', 'Jira', 'Perforce', 'Confluence'],
+            technologies: ['C++', 'BP', 'UE5', 'Jira', 'Perforce'],
             description: "Worked on general bugfixing, profiling, and UI. Focused on extending and improving the inhouse UI framework (C++/WBP) as well as create gameplay UI elements. Project: Commandos Origins.",
             categories: ['featured', 'gamedev']
         },
