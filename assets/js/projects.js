@@ -11,34 +11,19 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/cc_banner1.png',
-            link: 'https://store.epicgames.com/en-US/p/citizen-conflict-95e40e',
-            title: 'Citizen Conflict',
-            technologies: ['C++', 'Blueprints', 'UE5.2'],
-            description: "Multiplayer Third Person Hero Shooter with an emphasis on movement, abilities and reactionary gunplay. Responsible for general debugging, bugfixing, gameplay features and animation programming.",
+            image: 'assets/qorpo.png',
+            link: 'https://qorpo.world/games/spotlight',
+            title: 'QORPO WORLD',
+            technologies: ['C++', 'BP', 'UE5', 'Redmine', 'Git'],
+            description: "Worked on a common framework, third person hero shooter and pokemon-like game. Responsabilities: modular C++ framework, gameplay programming, general debugging and optimization. Projects: QFramework, Citizen Conflict, Aneemate.",
             categories: ['featured', 'gamedev']
         },
         {
-            image: 'assets/ani_banner.png',
-            link: 'https://aneemate.com/',
-            title: 'Aneemate',
-            technologies: ['C++', 'Blueprints', 'UE5.2'],
-            description: "Pokemon inspired game where the purpose is to collect and train powerful Aneemates within an animated world. Worked on Aneemates, gameplay and general world interaction as well as optimization.",
-            categories: ['featured', 'gamedev']
-        },
-        {
-            image: 'assets/frm_banner1.png',
-            title: 'QFRAMEWORK',
-            technologies: ['C++', 'UE5.2', 'Plug-in'],
-            description: "The framework behind driving all games at QORPO. Reponsible for planning and developing a modular / expandable code base with optimized architecture and design.",
-            categories: ['featured', 'gamedev']
-        },
-        {
-            image: 'assets/svr_banner1.png',
-            link: 'https://hehehenrique.itch.io/sharks-vs-robots',
-            title: 'Sharks vs Robots',
-            technologies: ['C++', 'cocos2dx'],
-            description: "Built in cocos2dx coupled with GCWrapper, this is a traditional remake of Manic Miner. Created the Game Manager, Interactibles, level generation, UI, Player controls, score and persistant data.",
+            image: 'assets/gamesfarm.png',
+            link: 'https://www.games-farm.com/',
+            title: 'GamesFarm CoDev Claymore Games',
+            technologies: ['C++', 'BP', 'UE5', 'Jira', 'Perforce', 'Confluence'],
+            description: "Worked on general bugfixing, profiling, and UI. Focused on extending and improving the inhouse UI framework (C++/WBP) as well as create gameplay UI elements. Project: Commandos Origins.",
             categories: ['featured', 'gamedev']
         },
     ]
