@@ -15,7 +15,7 @@ let render_projects = (slug) => {
             link: 'https://qorpo.world/games/spotlight',
             title: 'QORPO WORLD',
             technologies: ['C++', 'BP', 'UE5', 'Redmine', 'Git'],
-            description: "Worked on a common framework, third person hero shooter and pokemon-like game. Responsabilities: modular C++ framework, gameplay programming, general debugging and optimization. Projects: QFramework, Citizen Conflict, Aneemate.",
+            description: "Worked on a common framework, TP shooter and pokemon-like game. Responsabilities: C++ framework, gameplay programming, general debugging and optimization. Projects: QFramework, Citizen Conflict.",
             categories: ['featured', 'gamedev']
         },
         {
@@ -23,7 +23,7 @@ let render_projects = (slug) => {
             link: 'https://www.games-farm.com/',
             title: 'GamesFarm',
             technologies: ['C++', 'BP', 'UE5', 'Jira', 'Perforce'],
-            description: "Worked on general bugfixing, profiling, and UI. Focused on extending and improving the inhouse UI framework (C++/WBP) as well as create gameplay UI elements. Project: Commandos Origins. Platforms: PC, PlayStation5, Xbox SeriesX.",
+            description: "Working in extending and bugfixing UI. Focused on extending and improving project specific UI frameworks. Project: Commandos Origins, Dune: Awakening. Platforms: PC, PlayStation5, Xbox SeriesX.",
             categories: ['featured', 'gamedev']
         },
     ]
