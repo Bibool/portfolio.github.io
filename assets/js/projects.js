@@ -11,7 +11,7 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/qorpo.png',
+            image: 'https://www.startupjobs.cz/cdn-cgi/image/w=1190,h=712/https://images-assets.startupjobs.cz/LOGO/1484/9b7149a819b43b0f1198f457b8364fb2.png',
             link: 'https://grip-digital.com/',
             title: 'GRIP Studios',
             technologies: ['C++', 'BP', 'UE5', 'Jira', 'Perforce'],
