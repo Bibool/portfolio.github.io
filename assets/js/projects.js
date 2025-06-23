@@ -15,7 +15,7 @@ let render_projects = (slug) => {
             link: 'https://grip-digital.com/',
             title: 'GRIP Studios',
             technologies: ['C++', 'BP', 'UE5', 'Jira', 'Perforce'],
-            description: "Implemented core gameplay systems and abilities; Generic input/ability buffering, data driven targeting system and various abilities. Projects: Unannounced AAA title.",
+            description: "Implemented core gameplay systems and abilities; Generic input/ability buffering, data driven targeting system and various abilities. Project: Unannounced AAA title.",
             categories: ['featured', 'gamedev']
         },
         {
@@ -23,7 +23,7 @@ let render_projects = (slug) => {
             link: 'https://www.games-farm.com/',
             title: 'GamesFarm',
             technologies: ['C++', 'BP', 'UE5', 'Jira', 'Perforce'],
-            description: "Working in extending and bugfixing UI. Focused on extending and improving project specific UI frameworks. Project: Commandos Origins, Dune: Awakening. Platforms: PC, PlayStation5, Xbox SeriesX.",
+            description: "Working in extending and bugfixing UI. Focused on extending and improving project specific UI frameworks. Projects: Commandos Origins, Dune: Awakening. Platforms: PC, PlayStation5, Xbox SeriesX.",
             categories: ['featured', 'gamedev']
         },
     ]
