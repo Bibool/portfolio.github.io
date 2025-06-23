@@ -11,7 +11,7 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'https://i.imgur.com/oro9vk9_d.webp?maxwidth=760&fidelity=grand',
+            image: 'https://www.startupjobs.cz/cdn-cgi/image/w=1190,h=712/https://images-assets.startupjobs.cz/LOGO/1484/9b7149a819b43b0f1198f457b8364fb2.png',
             link: 'https://grip-digital.com/',
             title: 'GRIP Studios',
             technologies: ['C++', 'BP', 'UE5', 'Jira', 'Perforce'],
@@ -19,7 +19,7 @@ let render_projects = (slug) => {
             categories: ['featured', 'gamedev']
         },
         {
-            image: 'https://cdn.prod.website-files.com/61f6ed757fbc5307aab6d614/61f6f7298cb30a7434c48ba3_logo%20horizontal.svg',
+            image: 'https://i.imgur.com/oro9vk9_d.webp?maxwidth=760&fidelity=grand',
             link: 'https://www.games-farm.com/',
             title: 'GamesFarm',
             technologies: ['C++', 'BP', 'UE5', 'Jira', 'Perforce'],
