@@ -19,7 +19,7 @@ let render_projects = (slug) => {
             categories: ['featured', 'gamedev']
         },
         {
-            image: 'assets/gamesfarm.png',
+            image: 'https://cdn.prod.website-files.com/61f6ed757fbc5307aab6d614/61f6f7298cb30a7434c48ba3_logo%20horizontal.svg',
             link: 'https://www.games-farm.com/',
             title: 'GamesFarm',
             technologies: ['C++', 'BP', 'UE5', 'Jira', 'Perforce'],
