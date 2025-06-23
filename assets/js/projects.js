@@ -12,10 +12,10 @@ let render_projects = (slug) => {
     let projects_obj = [
         {
             image: 'assets/qorpo.png',
-            link: 'https://qorpo.world/games/spotlight',
-            title: 'QORPO WORLD',
-            technologies: ['C++', 'BP', 'UE5', 'Redmine', 'Git'],
-            description: "Worked on a common framework, TP shooter and pokemon-like game. Responsabilities: C++ framework, gameplay programming, general debugging and optimization. Projects: QFramework, Citizen Conflict.",
+            link: 'https://grip-digital.com/',
+            title: 'GRIP Studios',
+            technologies: ['C++', 'BP', 'UE5', 'Jira', 'Perforce'],
+            description: "Implemented core gameplay systems and abilities; Generic input/ability buffering, data driven targeting system and various abilities. Projects: Unannounced AAA title.",
             categories: ['featured', 'gamedev']
         },
         {
