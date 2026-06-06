@@ -15,7 +15,7 @@ let render_projects = (slug) => {
             link: 'https://grip-digital.com/',
             title: 'GRIP Studios',
             technologies: ['C++', 'BP', 'UE5', 'Jira', 'Perforce'],
-            description: "Implemented core gameplay systems and abilities; Generic input/ability buffering, data driven targeting system and various abilities. Project: Unannounced AAA title.",
+            description: "Implemented core gameplay systems and abilities; Generic input/ability buffering, data driven targeting system and various abilities. Projects: Unannounced AAA title, Icarus: Console Edition.",
             categories: ['featured', 'gamedev']
         },
         {
