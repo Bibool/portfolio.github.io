@@ -1,2 +1,4 @@
-User-agent: * 
-Disallow: 
+User-agent: *
+Disallow:
+
+Sitemap: https://bibool.github.io/portfolio.github.io/sitemap.xml

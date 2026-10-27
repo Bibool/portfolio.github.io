@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" fill="none">
+ <defs>
+  <radialGradient id="planet" cx=".28" cy=".22" r=".8"><stop stop-color="#9facba"/><stop offset=".2" stop-color="#6a7581"/><stop offset=".48" stop-color="#3a424a"/><stop offset=".8" stop-color="#13181e"/><stop offset="1" stop-color="#111417"/></radialGradient>
+  <radialGradient id="glow"><stop stop-color="#85b0dd" stop-opacity=".15"/><stop offset="1" stop-color="#85b0dd" stop-opacity="0"/></radialGradient>
+  <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a5cbf4" stop-opacity=".8"/><stop offset=".55" stop-color="#6d859f" stop-opacity=".2"/><stop offset="1" stop-color="#a5cbf4" stop-opacity=".65"/></linearGradient>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="4" seed="7"/><feColorMatrix type="saturate" values="0"/><feBlend in="SourceGraphic" mode="multiply"/></filter>
+  <clipPath id="sphere"><circle cx="410" cy="333" r="156"/></clipPath>
+ </defs>
+ <circle cx="410" cy="333" r="325" fill="url(#glow)"/>
+ <g stroke="#8298af" stroke-opacity=".16"><path d="M410 14v640M57 333h697"/><circle cx="410" cy="333" r="279" stroke-dasharray="2 9"/><circle cx="410" cy="333" r="221"/><path d="M35 75h24m-12-12v24M738 600h24m-12-12v24M96 584h20m-10-10v20M704 117h20m-10-10v20"/></g>
+ <g fill="#b3c3d5" opacity=".65"><circle cx="89" cy="170" r="1.4"/><circle cx="233" cy="112" r="1"/><circle cx="640" cy="180" r="1.6"/><circle cx="703" cy="409" r="1"/><circle cx="176" cy="469" r="1.4"/><circle cx="565" cy="609" r="1.2"/><circle cx="460" cy="50" r="1.5"/><circle cx="94" cy="346" r="1"/><circle cx="286" cy="603" r="1"/></g>
+ <ellipse cx="410" cy="333" rx="334" ry="100" transform="rotate(-29 410 333)" stroke="url(#ring)"/>
+ <circle cx="410" cy="333" r="156" fill="url(#planet)"/>
+ <g clip-path="url(#sphere)" opacity=".36"><circle cx="410" cy="333" r="156" fill="url(#planet)" filter="url(#grain)"/></g>
+ <path d="M118 495C161 553 313 498 459 417S728 252 702 171" stroke="url(#ring)" stroke-width="1.4"/>
+ <g transform="translate(626 216) rotate(61)"><path d="m0-34 15 44-15-7-15 7z" fill="#84befc"/><path d="M0-23V3M-11 5 0-2l11 7" stroke="#222c36"/><path d="M-5 17 0 44l5-27" fill="#84befc" opacity=".25"/></g>
+ <circle cx="626" cy="216" r="29" stroke="#74b5fb" stroke-opacity=".5" stroke-dasharray="3 5"/>
+ <path d="M643 193 682 150h71" stroke="#92afce" stroke-opacity=".5"/>
+ <text x="687" y="139" fill="#92afce" font-size="10" font-family="monospace" letter-spacing="2">6DOF</text>
+ <circle cx="220" cy="477" r="4" fill="#74b5fb"/>
+ <path d="m216 481-42 45H90" stroke="#92afce" stroke-opacity=".5"/>
+ <text x="90" y="543" fill="#92afce" font-size="10" font-family="monospace" letter-spacing="2">FREE FLIGHT</text>
+</svg>
