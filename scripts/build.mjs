@@ -34,8 +34,8 @@ const pages = [
   },
 ];
 const footer = `<footer class="site-footer wrap" id="contact">
-  <div class="footer-top"><div><span class="eyebrow">GET IN TOUCH</span><h2>Want to create<br>something together<span class="accent">?</span></h2></div><a class="contact-link" href="mailto:aacboutrif@gmail.com">Let’s talk <span aria-hidden="true">↗</span></a></div>
-  <div class="footer-bottom"><a class="wordmark" href="index.html">BIB<span class="accent">//</span></a><p>Abdallah Boutrif · Kvetoslavov, Slovakia</p><div><a href="https://github.com/Bibool">GitHub ↗</a><a href="assets/resume.pdf" target="_blank" rel="noopener">Résumé ↗</a><a href="mailto:aacboutrif@gmail.com">Email ↗</a></div><span class="copyright">© ${new Date().getFullYear()}</span></div>
+  <div class="footer-top"><div><h2>Get in touch</h2></div><a class="contact-link" href="mailto:aacboutrif@gmail.com">Let’s talk <span aria-hidden="true">↗</span></a></div>
+  <div class="footer-bottom"><a class="wordmark" href="index.html">BIB</a><p>Abdallah Boutrif · Kvetoslavov, Slovakia</p><div><a href="https://github.com/Bibool">GitHub ↗</a><a href="assets/resume.pdf" target="_blank" rel="noopener">Résumé ↗</a><a href="mailto:aacboutrif@gmail.com">Email ↗</a></div><span class="copyright">© ${new Date().getFullYear()}</span></div>
 </footer>`;
 
 for (const page of pages) {
@@ -50,7 +50,7 @@ for (const page of pages) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#12161d">
+  <meta name="theme-color" content="#f6f5f1">
   <meta name="google-site-verification" content="k4p92PduVR_7ZqAlB8-OMnONNOl9GkkmUh4dlKfbY7o">
   <title>${page.title}</title>
   <meta name="description" content="${page.description}">
@@ -66,11 +66,12 @@ for (const page of pages) {
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/editorial.css">
   <script src="assets/js/main.js" defer></script>
 </head>
 <body class="page-${page.slug}">
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header wrap"><a class="brand" href="index.html" aria-label="Bib — home"><span class="wordmark">BIB<span class="accent">//</span></span><span class="brand-name">ABDALLAH BOUTRIF<br><span>C++ PROGRAMMER</span></span></a>
+  <header class="site-header wrap"><a class="brand" href="index.html" aria-label="Bib — home"><span class="wordmark">BIB</span><span class="brand-name">ABDALLAH BOUTRIF<br><span>C++ PROGRAMMER</span></span></a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="navigation" hidden>Menu <span aria-hidden="true">+</span></button>
     <nav id="navigation" aria-label="Main navigation">${pages.map((item) => `<a href="${item.slug}.html"${item.slug === page.slug ? ' aria-current="page"' : ""}>${item.label}${item.slug === "voidstar" ? '<span class="nav-dot" aria-hidden="true"></span>' : ""}</a>`).join("")}<a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a></nav>
   </header>

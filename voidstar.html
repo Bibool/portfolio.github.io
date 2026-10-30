@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#12161d">
+  <meta name="theme-color" content="#f6f5f1">
   <meta name="google-site-verification" content="k4p92PduVR_7ZqAlB8-OMnONNOl9GkkmUh4dlKfbY7o">
   <title>Voidstar — A Space Combat Game by Abdallah Boutrif</title>
   <meta name="description" content="A personal single-player and multiplayer spaceship game, built in Unreal Engine 5 with C++. Explore the systems behind Voidstar.">
@@ -20,31 +20,24 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/editorial.css">
   <script src="assets/js/main.js" defer></script>
 </head>
 <body class="page-voidstar">
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header wrap"><a class="brand" href="index.html" aria-label="Bib — home"><span class="wordmark">BIB<span class="accent">//</span></span><span class="brand-name">ABDALLAH BOUTRIF<br><span>C++ PROGRAMMER</span></span></a>
+  <header class="site-header wrap"><a class="brand" href="index.html" aria-label="Bib — home"><span class="wordmark">BIB</span><span class="brand-name">ABDALLAH BOUTRIF<br><span>C++ PROGRAMMER</span></span></a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="navigation" hidden>Menu <span aria-hidden="true">+</span></button>
     <nav id="navigation" aria-label="Main navigation"><a href="index.html">Overview</a><a href="projects.html">Work</a><a href="plugins.html">Plugins</a><a href="voidstar.html" aria-current="page">Voidstar<span class="nav-dot" aria-hidden="true"></span></a><a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a></nav>
   </header>
   <main id="main"><section class="voidstar-hero wrap">
   <div class="voidstar-heading">
-    <p class="eyebrow">
-      <span class="status-dot"></span> PERSONAL PROJECT // IN DEVELOPMENT
-    </p>
     <h1>VOIDSTAR<span>✳</span></h1>
-    <div class="voidstar-subtitle">
-      <p>No fixed horizon.</p>
-      <span>SINGLE-PLAYER + MULTIPLAYER<br />UNREAL ENGINE 5.7 // C++</span>
-    </div>
   </div>
   <div class="voidstar-scene wip-scene">
-    <p class="eyebrow">// WIP — ARTWORK PENDING</p>
+    <p class="eyebrow">WIP — ARTWORK PENDING</p>
   </div>
 </section>
 <section class="wrap voidstar-overview">
-  <p class="eyebrow">A GAME OF MY OWN</p>
   <div>
     <h2>Creating my childhood dream.</h2>
     <p class="large-copy">
@@ -61,43 +54,41 @@
 <section class="section wrap" aria-labelledby="systems-title">
   <div class="section-header">
     <div>
-      <p class="eyebrow">UNDER THE HOOD</p>
       <h2 id="systems-title">
         The systems behind the game<span class="accent">.</span>
       </h2>
     </div>
-    <span class="section-note">A look at the technical foundations.</span>
   </div>
   <div class="systems-grid">
     <article>
       <span class="system-mark" aria-hidden="true">↗</span>
-      <p class="eyebrow">01 // FLIGHT</p>
+
       <h3>Client-predicted movement</h3>
       <p>
         Third-person space combat with movement and rotation across all axes.
         Custom physics sub-stepping supports high-velocity flight.
       </p>
-      <span class="tag">MOVEMENT // PHYSICS</span>
+      <span class="tag">MOVEMENT · PHYSICS</span>
     </article>
     <article>
       <span class="system-mark" aria-hidden="true">⌘</span>
-      <p class="eyebrow">02 // NETWORKING</p>
+
       <h3>Gameplay Ability System</h3>
       <p>
         Custom client-predicted projectiles built alongside GAS, ensuring
         multiplayer gameplay feels smooth regardless of ping.
       </p>
-      <span class="tag">GAS // CLIENT PREDICTION</span>
+      <span class="tag">GAS · CLIENT PREDICTION</span>
     </article>
     <article>
       <span class="system-mark" aria-hidden="true">✳</span>
-      <p class="eyebrow">03 // SINGLEPLAYER</p>
+
       <h3>The core systems</h3>
       <p>
         Custom world graph for the star map. Traffic simulation for AIs out of
         range. Commerce system to make the world feel alive.
       </p>
-      <span class="tag">WORLD SYSTEMS // C++</span>
+      <span class="tag">WORLD SYSTEMS · C++</span>
     </article>
   </div>
 </section>
@@ -116,8 +107,8 @@
 </section>
 </main>
   <footer class="site-footer wrap" id="contact">
-  <div class="footer-top"><div><span class="eyebrow">GET IN TOUCH</span><h2>Want to create<br>something together<span class="accent">?</span></h2></div><a class="contact-link" href="mailto:aacboutrif@gmail.com">Let’s talk <span aria-hidden="true">↗</span></a></div>
-  <div class="footer-bottom"><a class="wordmark" href="index.html">BIB<span class="accent">//</span></a><p>Abdallah Boutrif · Kvetoslavov, Slovakia</p><div><a href="https://github.com/Bibool">GitHub ↗</a><a href="assets/resume.pdf" target="_blank" rel="noopener">Résumé ↗</a><a href="mailto:aacboutrif@gmail.com">Email ↗</a></div><span class="copyright">© 2026</span></div>
+  <div class="footer-top"><div><h2>Get in touch</h2></div><a class="contact-link" href="mailto:aacboutrif@gmail.com">Let’s talk <span aria-hidden="true">↗</span></a></div>
+  <div class="footer-bottom"><a class="wordmark" href="index.html">BIB</a><p>Abdallah Boutrif · Kvetoslavov, Slovakia</p><div><a href="https://github.com/Bibool">GitHub ↗</a><a href="assets/resume.pdf" target="_blank" rel="noopener">Résumé ↗</a><a href="mailto:aacboutrif@gmail.com">Email ↗</a></div><span class="copyright">© 2026</span></div>
 </footer>
 </body>
 </html>
